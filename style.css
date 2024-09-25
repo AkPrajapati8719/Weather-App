@@ -1,0 +1,62 @@
+body{
+    font-family: arial,sans-serif;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/973/844/desktop-wallpaper-pinterest-aesthetic-for-laptop-laptop-city-aesthetic-thumbnail.jpg);
+    background-size: cover;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    color: #e7c8c6;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlsxU0gGi-c8gWr8Riz238v9cTQzedRF9dw&s);
+    background-size:cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 105px;
+}
+
+.container:hover{
+    color: #FFEB00;
+    background-color: rgb(39, 172, 255);
+    transition: 2s;
+    border-color: #007bFF;
+    box-shadow:10px 10px 10px #FFEB00;
+    transition: 1.5s;
+}
+
+h1{
+    font-size: 24px;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button{
+    background-color: #2c84c3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    border-color: rgb(234, 158, 65);
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px #654520;
+    background-color: chocolate;
+}
+
+.weather-info{
+    margin-top: 20px;
+}
